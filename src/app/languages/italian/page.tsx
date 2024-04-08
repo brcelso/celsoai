@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import { motion } from "framer-motion";
+import { LampContainer } from "@/components/ui/lamp";
 
 function ItalianPage() {
   const numberNames = [
@@ -23,15 +25,16 @@ function ItalianPage() {
   });
 
   return (
+    
     <div>
       <h1>Numeri italiani (1-100)</h1>
       {numberList}
     </div>
+    
   );
+  
 }
 
 export default ItalianPage;
-
-
   
   
