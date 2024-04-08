@@ -26,9 +26,9 @@ function ContactUs() {
           Contact Us
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-          We&apos;re here to help with any questions about AI,
+          We&apos;re here to help with any questions about our courses,
           programs, or events. Reach out and let us know how we can assist you
-          in your experience.
+          in your musical journey.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <input
