@@ -22,8 +22,8 @@ function Navbar({ className }: { className?: string }) {
             >
                <div className="flex flex-col space-y-4 text-sm">
                <HoveredLink href="https://celso.vercel.app/">All Content</HoveredLink>
-            <HoveredLink href="/courses">
-              Basic Music Theory
+            <HoveredLink href="/languages/italian">
+              Languages
             </HoveredLink>
             <HoveredLink href="/courses">
               Advanced Composition
