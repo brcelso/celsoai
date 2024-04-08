@@ -14,17 +14,19 @@ function HeroSection() {
         <div className="p-4 relative z-10 w-full text-center" >
             <h1
             className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400"
-            >Master the art of music</h1>
+            >AI is the New Age.</h1>
             <p
             className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto"
-            >Dive into our comprehensive music courses and transform your musical journey today. Whether you are a beginner or looking to refine your skills, join us to unlock your true potential.</p>
+            >AI, or artificial intelligence, is a branch of computer science that deals with the creation of intelligent agents, 
+            which are systems that can reason, learn, and act autonomously. AI research has been highly successful in developing 
+            effective techniques for solving a wide range of problems, from game playing to medical diagnosis.</p>
             <div className="mt-4">
                 <Link href={"/courses"}>
                     <Button
                     borderRadius="1.75rem"
                     className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
                     >
-                    Explore courses
+                    Explore AI
                     </Button>
                 </Link>
             </div>

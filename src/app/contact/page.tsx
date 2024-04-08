@@ -3,7 +3,7 @@
 import React, { FormEvent, useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 
-function MusicSchoolContactUs() {
+function ContactUs() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
@@ -26,9 +26,9 @@ function MusicSchoolContactUs() {
           Contact Us
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-          We&apos;re here to help with any questions about our courses,
+          We&apos;re here to help with any questions about AI,
           programs, or events. Reach out and let us know how we can assist you
-          in your musical journey.
+          in your experience.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <input
@@ -59,4 +59,4 @@ function MusicSchoolContactUs() {
   );
 }
 
-export default MusicSchoolContactUs;
+export default ContactUs;
