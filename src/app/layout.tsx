@@ -59,13 +59,14 @@ export default async function RootLayout({
 
                     <LogoutLink className="text-subtle">Logout</LogoutLink>
                   </div>
+                  <div className="relative w-full flex items-center justify-center ">
+                  <Navbar />
+                  </div>
                 </div>
               )}
             </div>
           </nav>
-          <div className="relative w-full flex items-center justify-center ">
-          <Navbar />
-        </div>
+        
         </header>
         
         <main>{children}</main>
