@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
-export default function Home() {
+export default function LoginPage() {
   return (
     <main className="px-24">
       <Card className="rounded-2xl bg-slate-950 shadow-2xl text-white text-center h-[760px]">
