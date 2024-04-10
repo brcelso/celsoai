@@ -259,3 +259,12 @@ a {
   margin-top: var(--g-spacing-2x-large);
 }
 
+<style jsx>{`
+  .text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+`}</style>
+
+
