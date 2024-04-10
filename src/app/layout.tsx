@@ -33,7 +33,7 @@ export default async function RootLayout({
             <div>
               {!(await isAuthenticated()) ? (
                 <>
-                  <LoginLink className="btn btn-ghost sign-in-btn">
+                  <LoginLink className="btn btn-white sign-in-btn">
                     Sign in
                   </LoginLink>
                   <RegisterLink className="btn btn-dark">Sign up</RegisterLink>
