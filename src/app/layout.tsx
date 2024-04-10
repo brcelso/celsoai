@@ -28,7 +28,7 @@ export default async function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
       <header>
-          <nav className="nav container nav-cn">
+          <nav className="nav container nav-cn top-10 inset-x-0 max-w-2xl mx-auto z-50">
             <h1 className="text-display-3">CelsoAuth</h1>
             <div>
               {!(await isAuthenticated()) ? (
