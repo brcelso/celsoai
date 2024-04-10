@@ -259,7 +259,7 @@ a {
   margin-top: var(--g-spacing-2x-large);
 }
 
-.nav-pink {
-  background-color: rgb(45, 3, 70); /* Or any other shade of pink you prefer */
+.nav-cn {
+  background-color: rgb(113, 106, 117); /* Or any other shade of pink you prefer */
   color: black; /* Adjust text color for better readability on pink background */
 }

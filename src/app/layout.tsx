@@ -28,12 +28,12 @@ export default async function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
       <header>
-          <nav className="nav container nav-pink">
+          <nav className="nav-cn">
             <h1 className="text-display-3">CelsoAuth</h1>
             <div>
               {!(await isAuthenticated()) ? (
                 <>
-                  <LoginLink className="btn btn-white sign-in-btn">
+                  <LoginLink className="btn btn-light sign-in-btn">
                     Sign in
                   </LoginLink>
                   <RegisterLink className="btn btn-dark">Sign up</RegisterLink>
