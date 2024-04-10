@@ -15,10 +15,13 @@ export default function LoginPage() {
       </Card>
 
       <style jsx>{`
-        /* Default styles */
-        .px-24 {
-          padding: 24px;
-        }
+  .text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+`}</style>
+
 
         /* Styles for screens smaller than 768px */
         @media screen and (max-width: 768px) {
