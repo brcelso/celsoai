@@ -13,26 +13,6 @@ export default function LoginPage() {
           <p className="text-3xl mt-2">Please login to begin</p>
         </div>
       </Card>
-
-      <style jsx>{`
-  .text-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-`}</style>
-
-
-        /* Styles for screens smaller than 768px */
-        @media screen and (max-width: 768px) {
-          .px-24 {
-            padding: 16px;
-          }
-          .max-w-[683px] {
-            max-width: 100%;
-          }
-        }
-      `}</style>
     </main>
   );
 }
