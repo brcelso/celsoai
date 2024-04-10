@@ -28,7 +28,7 @@ export default async function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
       <header>
-          <nav className="nav nav-cn">
+          <nav className="nav container nav-cn">
             
             <div>
               {!(await isAuthenticated()) ? (
