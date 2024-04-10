@@ -68,7 +68,22 @@ export default async function RootLayout({
         <div className="relative w-full flex items-center justify-center ">
           <Navbar />
         </div>
-        {children}
+        <main>{children}</main>
+        <footer className="footer">
+            <div className="container">
+              <strong className="text-heading-2">CelsoAuth</strong>
+              <p className="footer-tagline text-body-3">
+                Visit our{" "}
+                <Link className="link" href="https://kinde.com/docs">
+                  help center
+                </Link>
+              </p>
+  
+              <small className="text-subtle">
+                © 2023 KindeAuth, Inc. All rights reserved
+              </small>
+            </div>
+          </footer>
       </body>
     </html>
   );
