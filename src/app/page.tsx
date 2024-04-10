@@ -10,9 +10,6 @@ export default function LoginPage() {
             Welcome to my page
           </h1>
           <p className="text-3xl mt-2">Please login to begin</p>
-          <Button className="mt-12" variant={"secondary"} size={"lg"}>
-            Sign up
-          </Button>
         </div>
       </Card>
     </main>
