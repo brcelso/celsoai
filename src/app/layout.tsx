@@ -28,7 +28,7 @@ export default async function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
       <header>
-          <nav className="nav container">
+          <nav className="flex justify-between items-center p-8 px-24">
             <div>
               {!(await isAuthenticated()) ? (
                 <>
