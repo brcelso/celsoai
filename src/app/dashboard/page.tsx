@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Card,
   CardContent,
@@ -35,6 +36,18 @@ export default async function Dashboard() {
             </CardDescription>
           </CardHeader>
           <CardContent>
+          <Tabs defaultValue="server">
+      <TabsList>
+        <TabsTrigger value="server">Server component</TabsTrigger>
+      </TabsList>
+      <TabsContent value="server">
+        <div className="border border-slate-200 rounded-lg p-4 overflow-auto mb-4">
+          <pre className="text-sm text-slate-700">
+            <code>{JSON.stringify(user, null, 2)}</code>
+          </pre>
+        </div>
+      </TabsContent>
+    </Tabs>
             <Link href="https://kinde.notion.site/Next-js-App-Router-v2-e7a16d8ae38e45b6ad052910075e24ef?pvs=4">
               <Button variant="secondary">View docs</Button>
             </Link>
