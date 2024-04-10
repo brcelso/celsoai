@@ -63,10 +63,11 @@ export default async function RootLayout({
               )}
             </div>
           </nav>
-        </header>
-        <div className="relative w-full flex items-center justify-center ">
+          <div className="relative w-full flex items-center justify-center ">
           <Navbar />
         </div>
+        </header>
+        
         <main>{children}</main>
         <footer className="footer">
             <div className="container">
