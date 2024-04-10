@@ -258,3 +258,8 @@ a {
 .next-steps-section {
   margin-top: var(--g-spacing-2x-large);
 }
+
+.nav-pink {
+  background-color: pink; /* Or any other shade of pink you prefer */
+  color: black; /* Adjust text color for better readability on pink background */
+}
